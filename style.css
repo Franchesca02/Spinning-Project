@@ -33,7 +33,11 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding-left: 20px;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+.cart, .surf{
+    margin-left: 15px;
 }
 .spin-logo {
     width: 50%;
@@ -55,7 +59,7 @@ body {
 }
 .left-biker {
     width: 30%;
-    margin-right: 20px;
+    margin-right: 17px;
     
 }
 .middle-biker {
@@ -179,13 +183,14 @@ margin-bottom: 60px;
 }
 .our-fans {
     width: 100%;
-   
+    background: rgb(247, 244, 244);
 }
 .fans {
     position: relative;
     width: 100%;
 	overflow: hidden;
     display: flex;
+    margin-top: 30px;
     /* width: 90%; */
     /* background: violet; */
 }
@@ -206,15 +211,110 @@ h4, .lizzy, .our-fans p{
     margin-right: 120px;
     background: rgb(230, 228, 228);
 }
+.right-quote {
+    float: right;
+}
+.right-quote, .left-quote{
+    /* font-size: 100px; */
+    color: darkred;
+}
 .feedback {
 text-align: center;
 }
 .biography {
     width: 95%;
-    margin: 0 auto;
-    
+    padding-left: 30px;
+    /* padding-bottom: 70px; */
+
 }
 .biography p{
     text-align: center;
     font-size: 15px;
+}
+.our-community {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    display: flex;
+    background: rgb(247, 244, 244);
+}
+.community {
+    width: 50%;
+    padding-left: 25px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: lighter;
+
+}
+.face, .tweet, .insta, .yout {
+    /* border-radius: 50%; */
+    padding-left: 20px;
+}
+.mailing-list {
+    width: 40%;
+    display: flex;
+    font-size: 20px;
+    /* background-color: coral; */
+}
+.email {
+    width: 50%;
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+}
+.address {
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 40px;
+    /* border-radius: 25px; */
+    color: darkgrey;
+    padding-right: 50px;
+}
+input[type="submit"] {
+    margin-left: -50px;
+    height: 40px;
+    width: 50px;
+    background: darkgrey;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+}
+.last-div {
+    width: 100%;
+    background-color: rgb(247, 244, 244);
+    display: flex;
+    text-align: center;
+}
+.support, .information, .brands, .shops, .education, .about-us{
+    margin-left: 20px;
+}
+li, .one, .two, .three, .four, .five, .six{
+    list-style-type: none;
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* background-color: rgb(145, 136, 145); */
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.footer {
+    width: 97%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: rgb(247, 244, 244);
+}
+.footer p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(88, 87, 87);
+    font-family: Arial, Helvetica, sans-serif;
 }
