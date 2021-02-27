@@ -53,9 +53,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .section-images {
-    width: 100%;
+    width: 98%;
     display: flex;
-   
+    justify-content: space-evenly;
+   /* margin-left: 10px; */
 }
 .left-biker {
     width: 30%;
@@ -78,20 +79,23 @@ body {
 }
 .shopping-section {
     width: 100%;
-    margin-bottom: 550px;
+    /* background-color: darkred; */
+    /* height: 600px; */
+    /* margin-bottom: 550px; */
 }
 .shopping-images {
     width: 100%;
+    margin-top: 60px;
   justify-content: space-evenly;
     display: flex;
-    height: 300px;
+    /* height: 300px; */
     flex-wrap: wrap;
     text-align: center;
 }
 .item-two, .item-three, .item-five, .item-six, .item-seven, .item-eight {
 width: 300px;
 height: 100%;
-padding-top: 50px;
+/* padding-top: 20px; */
 }
 .item-four, .item-one {
     width: 300px;
@@ -110,11 +114,14 @@ padding-top: 50px;
     width: 100%;
 }
 .as-seen-images {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
+/* .as-seen-images img{
+    width: 100%;
+} */
 .as-seen, h2{
     text-align: center;
     font-size: 22px;
@@ -131,21 +138,6 @@ padding-top: 50px;
     display: flex;
     background-color: rgb(182, 22, 22);
 }
-.born-from-the-road {
-    width: 50%;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
-    /* background-color: hotpink; */
-    /* float: left; */
-}
-.born-from-the-road p{
-    font-size: 20px;
-   text-align: center;
-   color: white;
-   /* margin-top: 10px; */
-   margin-right: 120px;
-}
 .born-image {
     width: 50%;
     /* background-color: thistle; */
@@ -156,23 +148,41 @@ padding-top: 50px;
     border-radius: 8px;
     /* top: 120px; */
     /* bottom: 100px; */
-    margin-left: 120px;
+    margin-left: 50px;
+}
+.born-from-the-road {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.born-from-the-road p{
+    font-size: 18px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+   color: white;
+   
 }
 hr {
-    width: 65%;
+    width: 60%;
     size: 8;
     color: white;
+    /* margin-left: 30px; */
 }
-.learn {
-    /* text-align: center; */
+.arrow img {
+margin-left: 60px;
+/* margin-bottom: 50px; */
 }
-.arrow, h3 {
-text-align: center;
+.arrow, h3{
+/* text-align: center; */
 font-size: 20px;
+width: 60%;
 font-weight: bold;
+margin: 0 auto;
 color: white;
-margin-right: 100px;
-margin-bottom: 60px;
+/* margin-right: 50px; */
+margin-bottom: 40px;
 /* margin-top: 10px; */
 }
 .arrow img {
@@ -186,9 +196,9 @@ margin-bottom: 60px;
     background: rgb(247, 244, 244);
 }
 .fans {
-    position: relative;
+    /* position: relative; */
     width: 100%;
-	overflow: hidden;
+	/* overflow: hidden; */
     display: flex;
     margin-top: 30px;
     /* width: 90%; */
@@ -206,7 +216,7 @@ h4, .lizzy, .our-fans p{
 }
 .quotation {
     width: 50%;
-    margin-top: 150px;
+    margin-top: 120px;
     height: 350px;
     margin-right: 120px;
     background: rgb(230, 228, 228);
@@ -317,4 +327,79 @@ h5 {
     font-weight: lighter;
     color: rgb(88, 87, 87);
     font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 750px){
+.header-video, .section, .shopping-description {
+    width: 100%;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+}
+.section-images, .studio-video, .left-biker, .middle-biker, .right-biker {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.shopping-images, .item-one, .item-two, .item-three, .item-four, .item-five, .item-six {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.biography {
+    text-align: center;
+}
+.last-div {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.as-seen-images, .seen-one, .seen-two, .seen-three, .seen-four, .seen-five {
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: center;
+}
+.story, .born, .arrow {
+    /* text-align: center; */
+    width: 100%;
+    background-color: rgb(250, 246, 246);
+    flex-wrap: wrap;
+    color: black;
+    /* height: 300px; */
+}
+.born-image, .born-from-the-road {
+    text-align: center;
+    width: 80%;
+    color: black;
+    margin-left: 15px;
+    flex-wrap: wrap;
+}
+.born-from-the-road p, h3{
+    color: black;
+}
+.our-fans, .fans {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.quotation {
+    text-align: center;
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.left-quote, .right-quote {
+    display: block;
+}
+.biography {
+    text-align: center;
+    width: 90%;
+}
+.our-community {
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
 }
