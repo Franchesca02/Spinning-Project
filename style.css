@@ -3,38 +3,15 @@ body {
     padding: 0;
     background-color: white;
 }
-.navbar, .navbar-expand-md, .navbar-light {
-   width: 100%;
-   /* background-color: blueviolet; */
-   display: flex;
+.navbar li a {
+    color: black !important;
 }
-.collapse, .navbar-collapse, #navbarCollapse {
-    width: 50%;
-    /* float: left; */
-    /* background-color: aqua; */
-}
-.navbar-nav {
-    /* width: 90%; */
-    text-align: center;
-    padding-top: 5px;
-}
-.nav-item, .nav-link{
-    /* list-style: none; */
-    text-decoration: none;
-    color: black;
-    font-weight: lighter;
-    font-size: 15px;
-    padding-left: 20px;
+.bottom-div li {
+    font-weight: bold;
     
 }
-.item, .link {
-    /* list-style: none; */
-   
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-right: 10px;
-    padding-left: 15px;
+.icons {
+    display: flex;
 }
 .cart, .surf{
     margin-left: 15px;
@@ -45,6 +22,9 @@ body {
 }
 .header-video, .section {
     width: 100%;
+}
+.ham {
+    display: none;
 }
 
 .explore, .shopping-description {
@@ -209,7 +189,7 @@ h4, .lizzy, .our-fans p{
     font-size: 22px;
 }
 .fans img{
-	display: block;
+	/* display: block; */
 	width: 100%;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
 	clip-path: polygon(0% 0%, 50% 0%, 100% 80%, 0% 80%);
@@ -273,15 +253,15 @@ text-align: center;
 .address {
     width: 60%;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 input[type="text"] {
-    width: 200px;
-    height: 40px;
+    width: 180px;
+    height: 35px;
     /* border-radius: 25px; */
     color: darkgrey;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 input[type="submit"] {
     margin-left: -50px;
@@ -354,6 +334,11 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
+.support, .information, li, .brands, .shops, .education, .about-us {
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: center;
+}
 .as-seen-images, .seen-one, .seen-two, .seen-three, .seen-four, .seen-five {
     flex-wrap: wrap;
     width: 90%;
@@ -383,6 +368,12 @@ body {
     text-align: center;
     flex-wrap: wrap;
 }
+.fans img{
+    width: 100%;
+    display: block;
+    /* object-fit: cover; */
+    /* height: 100%; */
+}
 .quotation {
     text-align: center;
     width: 100%;
@@ -397,9 +388,35 @@ body {
     text-align: center;
     width: 90%;
 }
-.our-community {
+.our-community, .address {
     width: 100%;
+    display: flex;
     text-align: center;
     flex-wrap: wrap;
+    /* margin-left: 50px; */
+}
+.community, .mailing-list {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+      margin-left: 50px;
+}
+.face, .tweet, .insta, .yout {
+    /* width: 100%; */
+    display: flex;
+    text-align: center;  
+}
+.ham {
+    display: block;
+    float: right; 
+    color: black;
+    font-size: 30px;
+}
+.row {
+    display: none;
+}
+.surf, .cart {
+    display: block;
 }
 }
