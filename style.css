@@ -23,6 +23,9 @@ body {
 .header-video, .section {
     width: 100%;
 }
+.header img{
+    width: 100%;
+}
 .ham {
     display: none;
 }
@@ -54,8 +57,12 @@ body {
 }
 .studio-video {
     width: 100%;
+    /* background-color: aqua; */
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.studio-video img{
+    width: 100%;
 }
 .shopping-section {
     width: 100%;
@@ -320,6 +327,12 @@ body {
     width: 100%;
     flex-wrap: wrap;
     justify-items: center;
+}
+.studio-video img{
+    width: 100%;
+}
+.header-video img{
+    width: 100%;
 }
 .shopping-images, .item-one, .item-two, .item-three, .item-four, .item-five, .item-six {
     width: 100%;
