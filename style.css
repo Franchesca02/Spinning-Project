@@ -249,7 +249,7 @@ text-align: center;
 .mailing-list {
     width: 40%;
     display: flex;
-    font-size: 20px;
+    /* font-size: 20px; */
     /* background-color: coral; */
 }
 .email {
@@ -261,14 +261,16 @@ text-align: center;
     width: 60%;
     padding-left: 40px;
     padding-top: 15px;
+    font-size: 13px;
 }
 
 input[type="text"] {
     width: 180px;
-    height: 35px;
+    height: 40px;
     /* border-radius: 25px; */
     color: darkgrey;
     padding-right: 40px;
+    font-size: 14px;
 }
 input[type="submit"] {
     margin-left: -50px;
@@ -303,8 +305,9 @@ h5 {
     font-size: 15px;
 }
 .footer {
-    width: 97%;
-    padding-left: 40px;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 25px;
     background-color: rgb(247, 244, 244);
@@ -339,18 +342,17 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
-.biography {
-    text-align: center;
-}
+
 .last-div {
     width: 100%;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 20px;
 }
 .support, .information, li, .brands, .shops, .education, .about-us {
     width: 80%;
     flex-wrap: wrap;
-    text-align: center;
+    /* text-align: center; */
 }
 .as-seen-images, .seen-one, .seen-two, .seen-three, .seen-four, .seen-five {
     flex-wrap: wrap;
@@ -383,15 +385,13 @@ body {
 }
 .fans img{
     width: 100%;
-    display: block;
-    /* object-fit: cover; */
-    /* height: 100%; */
+    /* display: block; */
 }
 .quotation {
     text-align: center;
     width: 100%;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
     font-size: 15px;
 }
 .left-quote, .right-quote {
@@ -399,9 +399,9 @@ body {
 }
 .biography {
     text-align: center;
-    width: 90%;
+    width: 95%;
 }
-.our-community, .address {
+.our-community {
     width: 100%;
     display: flex;
     text-align: center;
@@ -413,12 +413,15 @@ body {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-      margin-left: 50px;
+      margin-left: 80px;
 }
 .face, .tweet, .insta, .yout {
     /* width: 100%; */
     display: flex;
     text-align: center;  
+}
+.address {
+    font-size: 12px;
 }
 .ham {
     display: block;
@@ -431,5 +434,7 @@ body {
 }
 .surf, .cart {
     display: block;
+    float: center;
 }
+ 
 }
